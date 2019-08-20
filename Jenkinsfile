@@ -1,8 +1,8 @@
 pipeline {
-    agent {
+/*    agent {
         label 'jenkins-slave-jnlp'
     }
-    stages {
+  */  stages {
         stage('Build') {
             steps {
                 sh 'echo "Hello World"'
