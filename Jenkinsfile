@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh 'echo "Hello World"'
                 sh '''
-                    echo "Multiline shell steps works too"
+                    echo "Multiline shell steps works too from branch test1"
                     ls -lah
                 '''
             }
