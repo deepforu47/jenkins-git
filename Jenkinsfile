@@ -8,6 +8,7 @@ pipeline {
                 sh '''
                     echo "Multiline shell steps works too from branch test1"
                     ls -lah
+                    echo "Again Hello from Test1"
                 '''
             }
         }
