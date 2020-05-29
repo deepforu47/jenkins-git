@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo "Hello World"
                 echo "Multiline shell steps works too"
+               echo "Third line for auto trigger"
             }
         }
     }
